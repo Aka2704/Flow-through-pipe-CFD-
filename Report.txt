@@ -1,0 +1,81 @@
+ANSYS Report
+
+ANSYS Logo: ansys-part-of-synopsys-238x80.jpg
+
+Date:  2026/04/06 23:19:50
+
+______________________________________________________________________
+
+Contents
+1. File Report
+    Table 1  File Information for FFF
+2. Mesh Report
+    Table 2  Mesh Information for FFF
+3. Physics Report
+    Table 3  Domain Physics for FFF
+    Table 4  Boundary Physics for FFF
+4. User Data
+    Chart 1
+    Chart 2
+______________________________________________________________________
+
+1. File Report
+
+Table 1.  File Information for FFF
+Case	FFF
+File Path	C:\Users\Akash\OneDrive\Documents\CFD projects\FLOW THROUGH CIRCULAR PIPE\circular pipe_files\dp0\FFF\Fluent\FFF.flprj
+File Date	06 April 2026
+File Time	08:40:49 PM
+File Type	CFF
+File Version	--
+
+
+2. Mesh Report
+
+Table 2.  Mesh Information for FFF
+Domain	Nodes	Elements
+pipe	139872	94584
+water	295407	271680
+All Domains	435279	366264
+
+
+3. Physics Report
+
+Table 3.  Domain Physics for FFF
+Domain - pipe	
+Type	FLUID
+Location	pipe
+Domain - water	
+Type	FLUID
+Location	water
+
+
+Table 4.  Boundary Physics for FFF
+Domain	Boundaries	
+pipe	Boundary - contact_region src	
+	Type	INTERFACE
+	Location	contact_region-src
+	Boundary - pipe_wall	
+	Type	WALL
+	Location	pipe_wall
+	Boundary - wall pipe	
+	Type	WALL
+	Location	wall-pipe
+water	Boundary - contact_region trg	
+	Type	INTERFACE
+	Location	contact_region-trg
+	Boundary - inlet	
+	Type	VELOCITY-INLET
+	Location	inlet
+	Boundary - outlet	
+	Type	PRESSURE-OUTLET
+	Location	outlet
+
+
+4. User Data
+
+Chart 1 - Report/Chart001.png
+
+Chart 2 - Report/Chart002.png
+
+
